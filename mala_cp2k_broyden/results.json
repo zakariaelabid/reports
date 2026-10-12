@@ -1,0 +1,1115 @@
+[
+  {
+    "key": "al298",
+    "label": "Al \u00b7 298 K",
+    "atoms": 256,
+    "cutoff": 11000,
+    "grid": "200\u00b3",
+    "root": "logs/mala_cp2k_validation/20260921_225223_562895_2960795",
+    "mala": "cp2k_mala.out",
+    "atomic": "cp2k_atomic.out",
+    "metadata": "mala_artifacts.json",
+    "prep_wall": null,
+    "model": "Al_298K_0",
+    "mala_data": {
+      "rows": [
+        {
+          "iteration": 1,
+          "update": "NoMix/Diag.",
+          "alpha": 0.1,
+          "seconds": 92.5,
+          "convergence": 0.93617568,
+          "energy_Ha": -541.8306965094,
+          "change_Ha": -542.0,
+          "cumulative_iteration_seconds": 92.5
+        },
+        {
+          "iteration": 2,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 131.4,
+          "convergence": 0.01424023,
+          "energy_Ha": -531.9816954656,
+          "change_Ha": 9.85,
+          "cumulative_iteration_seconds": 223.9
+        },
+        {
+          "iteration": 3,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 145.3,
+          "convergence": 0.02288348,
+          "energy_Ha": -531.4055847395,
+          "change_Ha": 0.576,
+          "cumulative_iteration_seconds": 369.20000000000005
+        },
+        {
+          "iteration": 4,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 140.8,
+          "convergence": 0.01077779,
+          "energy_Ha": -530.2090683583,
+          "change_Ha": 1.2,
+          "cumulative_iteration_seconds": 510.00000000000006
+        },
+        {
+          "iteration": 5,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 152.6,
+          "convergence": 0.00154811,
+          "energy_Ha": -529.9662838942,
+          "change_Ha": 0.243,
+          "cumulative_iteration_seconds": 662.6
+        },
+        {
+          "iteration": 6,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 189.9,
+          "convergence": 0.00470794,
+          "energy_Ha": -529.8639640035,
+          "change_Ha": 0.102,
+          "cumulative_iteration_seconds": 852.5
+        },
+        {
+          "iteration": 7,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 180.6,
+          "convergence": 0.00101964,
+          "energy_Ha": -529.8449896175,
+          "change_Ha": 0.019,
+          "cumulative_iteration_seconds": 1033.1
+        },
+        {
+          "iteration": 8,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 136.3,
+          "convergence": 0.00087987,
+          "energy_Ha": -529.8425659143,
+          "change_Ha": 0.00242,
+          "cumulative_iteration_seconds": 1169.3999999999999
+        },
+        {
+          "iteration": 9,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 139.2,
+          "convergence": 0.00034832,
+          "energy_Ha": -529.847644271,
+          "change_Ha": -0.00508,
+          "cumulative_iteration_seconds": 1308.6
+        },
+        {
+          "iteration": 10,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 141.6,
+          "convergence": 0.0001324,
+          "energy_Ha": -529.8511555067,
+          "change_Ha": -0.00351,
+          "cumulative_iteration_seconds": 1450.1999999999998
+        },
+        {
+          "iteration": 11,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 141.8,
+          "convergence": 0.00016213,
+          "energy_Ha": -529.8570318654,
+          "change_Ha": -0.00588,
+          "cumulative_iteration_seconds": 1591.9999999999998
+        },
+        {
+          "iteration": 12,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 142.0,
+          "convergence": 3.486e-05,
+          "energy_Ha": -529.8593869817,
+          "change_Ha": -0.00236,
+          "cumulative_iteration_seconds": 1733.9999999999998
+        },
+        {
+          "iteration": 13,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 141.8,
+          "convergence": 3.922e-05,
+          "energy_Ha": -529.8617348455,
+          "change_Ha": -0.00235,
+          "cumulative_iteration_seconds": 1875.7999999999997
+        },
+        {
+          "iteration": 14,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 141.6,
+          "convergence": 1.906e-05,
+          "energy_Ha": -529.8626354443,
+          "change_Ha": -0.000901,
+          "cumulative_iteration_seconds": 2017.3999999999996
+        },
+        {
+          "iteration": 15,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 141.3,
+          "convergence": 8.54e-06,
+          "energy_Ha": -529.8630719049,
+          "change_Ha": -0.000436,
+          "cumulative_iteration_seconds": 2158.7
+        }
+      ],
+      "n": 15,
+      "iteration_time": 2158.7,
+      "final_energy": -529.8630719048789,
+      "warnings": 1,
+      "mpi": 32,
+      "threads": 1,
+      "host": "gh003",
+      "electronic_K": 300.0,
+      "wall": 2284.42
+    },
+    "atomic_data": {
+      "rows": [
+        {
+          "iteration": 1,
+          "update": "NoMix/Diag.",
+          "alpha": 0.1,
+          "seconds": 87.2,
+          "convergence": 0.95983384,
+          "energy_Ha": -564.9424012656,
+          "change_Ha": -565.0,
+          "cumulative_iteration_seconds": 87.2
+        },
+        {
+          "iteration": 2,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 202.4,
+          "convergence": 0.02086318,
+          "energy_Ha": -553.2331989323,
+          "change_Ha": 11.7,
+          "cumulative_iteration_seconds": 289.6
+        },
+        {
+          "iteration": 3,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 201.1,
+          "convergence": 0.0761997,
+          "energy_Ha": -541.0944774359,
+          "change_Ha": 12.1,
+          "cumulative_iteration_seconds": 490.70000000000005
+        },
+        {
+          "iteration": 4,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 211.8,
+          "convergence": 0.03487434,
+          "energy_Ha": -533.746117794,
+          "change_Ha": 7.35,
+          "cumulative_iteration_seconds": 702.5
+        },
+        {
+          "iteration": 5,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 190.1,
+          "convergence": 0.00727153,
+          "energy_Ha": -531.7260544194,
+          "change_Ha": 2.02,
+          "cumulative_iteration_seconds": 892.6
+        },
+        {
+          "iteration": 6,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 221.3,
+          "convergence": 0.01475911,
+          "energy_Ha": -530.4494099706,
+          "change_Ha": 1.28,
+          "cumulative_iteration_seconds": 1113.9
+        },
+        {
+          "iteration": 7,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 202.6,
+          "convergence": 0.00189608,
+          "energy_Ha": -530.2191539193,
+          "change_Ha": 0.23,
+          "cumulative_iteration_seconds": 1316.5
+        },
+        {
+          "iteration": 8,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 208.5,
+          "convergence": 0.00266901,
+          "energy_Ha": -530.0244850091,
+          "change_Ha": 0.195,
+          "cumulative_iteration_seconds": 1525.0
+        },
+        {
+          "iteration": 9,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 218.9,
+          "convergence": 0.00144417,
+          "energy_Ha": -529.9371345031,
+          "change_Ha": 0.0874,
+          "cumulative_iteration_seconds": 1743.9
+        },
+        {
+          "iteration": 10,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 170.1,
+          "convergence": 0.00039298,
+          "energy_Ha": -529.9107339169,
+          "change_Ha": 0.0264,
+          "cumulative_iteration_seconds": 1914.0
+        },
+        {
+          "iteration": 11,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 141.3,
+          "convergence": 0.00047775,
+          "energy_Ha": -529.8819088743,
+          "change_Ha": 0.0288,
+          "cumulative_iteration_seconds": 2055.3
+        },
+        {
+          "iteration": 12,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 156.3,
+          "convergence": 7.343e-05,
+          "energy_Ha": -529.8753248094,
+          "change_Ha": 0.00658,
+          "cumulative_iteration_seconds": 2211.6000000000004
+        },
+        {
+          "iteration": 13,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 140.2,
+          "convergence": 9.643e-05,
+          "energy_Ha": -529.8684667476,
+          "change_Ha": 0.00686,
+          "cumulative_iteration_seconds": 2351.8
+        },
+        {
+          "iteration": 14,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 192.6,
+          "convergence": 4.219e-05,
+          "energy_Ha": -529.865790489,
+          "change_Ha": 0.00268,
+          "cumulative_iteration_seconds": 2544.4
+        },
+        {
+          "iteration": 15,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 207.8,
+          "convergence": 1.474e-05,
+          "energy_Ha": -529.8647809131,
+          "change_Ha": 0.00101,
+          "cumulative_iteration_seconds": 2752.2000000000003
+        },
+        {
+          "iteration": 16,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 217.2,
+          "convergence": 1.786e-05,
+          "energy_Ha": -529.8639763607,
+          "change_Ha": 0.000805,
+          "cumulative_iteration_seconds": 2969.4
+        },
+        {
+          "iteration": 17,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 188.4,
+          "convergence": 3.59e-06,
+          "energy_Ha": -529.8638113814,
+          "change_Ha": 0.000165,
+          "cumulative_iteration_seconds": 3157.8
+        }
+      ],
+      "n": 17,
+      "iteration_time": 3157.8,
+      "final_energy": -529.8638113814453,
+      "warnings": 1,
+      "mpi": 32,
+      "threads": 1,
+      "host": "gh003",
+      "electronic_K": 300.0,
+      "wall": 3279.8
+    },
+    "stages": {
+      "descriptor": 245.50946776010096,
+      "inference": 300.60212483629584,
+      "density": 2.5564224533736706,
+      "cube_write": 9.977359294891357
+    },
+    "prep_components": 558.6453743446618,
+    "prep": 558.6453743446618,
+    "prep_basis": "sum of recorded components; lower-bound estimate",
+    "scf_wall_saving": 995.3800000000001,
+    "end_to_end": 2843.065374344662,
+    "energy_difference_meV_atom": 0.0786022752687275
+  },
+  {
+    "key": "al933",
+    "label": "Liquid Al \u00b7 933 K",
+    "atoms": 256,
+    "cutoff": 11000,
+    "grid": "200\u00b3",
+    "root": "933K_hybrid_0/logs/snapshot8_full/20260930_104300_575271_4126053",
+    "mala": "cp2k_external_density.out",
+    "atomic": "cp2k_atomic_guess.out",
+    "metadata": "mala_metadata.json",
+    "prep_wall": 697.0,
+    "model": "Al_933K_hybrid_0 \u00b7 snapshot 8",
+    "mala_data": {
+      "rows": [
+        {
+          "iteration": 1,
+          "update": "NoMix/Diag.",
+          "alpha": 0.1,
+          "seconds": 87.7,
+          "convergence": 1.04200753,
+          "energy_Ha": -544.3666561731,
+          "change_Ha": -544.0,
+          "cumulative_iteration_seconds": 87.7
+        },
+        {
+          "iteration": 2,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 131.0,
+          "convergence": 0.07021186,
+          "energy_Ha": -531.2666580453,
+          "change_Ha": 13.1,
+          "cumulative_iteration_seconds": 218.7
+        },
+        {
+          "iteration": 3,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 133.1,
+          "convergence": 0.09255679,
+          "energy_Ha": -530.6216460542,
+          "change_Ha": 0.645,
+          "cumulative_iteration_seconds": 351.79999999999995
+        },
+        {
+          "iteration": 4,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 132.1,
+          "convergence": 0.02602715,
+          "energy_Ha": -529.7542953756,
+          "change_Ha": 0.867,
+          "cumulative_iteration_seconds": 483.9
+        },
+        {
+          "iteration": 5,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 133.5,
+          "convergence": 0.00598434,
+          "energy_Ha": -529.2095163178,
+          "change_Ha": 0.545,
+          "cumulative_iteration_seconds": 617.4
+        },
+        {
+          "iteration": 6,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 135.6,
+          "convergence": 0.00793533,
+          "energy_Ha": -528.5208633999,
+          "change_Ha": 0.689,
+          "cumulative_iteration_seconds": 753.0
+        },
+        {
+          "iteration": 7,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 138.3,
+          "convergence": 0.00300763,
+          "energy_Ha": -528.4148978107,
+          "change_Ha": 0.106,
+          "cumulative_iteration_seconds": 891.3
+        },
+        {
+          "iteration": 8,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 141.2,
+          "convergence": 0.00282545,
+          "energy_Ha": -528.3180069697,
+          "change_Ha": 0.0969,
+          "cumulative_iteration_seconds": 1032.5
+        },
+        {
+          "iteration": 9,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 145.2,
+          "convergence": 0.00097146,
+          "energy_Ha": -528.2948227955,
+          "change_Ha": 0.0232,
+          "cumulative_iteration_seconds": 1177.7
+        },
+        {
+          "iteration": 10,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 149.6,
+          "convergence": 0.00038542,
+          "energy_Ha": -528.2868678956,
+          "change_Ha": 0.00795,
+          "cumulative_iteration_seconds": 1327.3
+        },
+        {
+          "iteration": 11,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 149.1,
+          "convergence": 0.00024641,
+          "energy_Ha": -528.2846239142,
+          "change_Ha": 0.00224,
+          "cumulative_iteration_seconds": 1476.3999999999999
+        },
+        {
+          "iteration": 12,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 149.2,
+          "convergence": 0.00010739,
+          "energy_Ha": -528.2850524466,
+          "change_Ha": -0.000429,
+          "cumulative_iteration_seconds": 1625.6
+        },
+        {
+          "iteration": 13,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 149.2,
+          "convergence": 8.598e-05,
+          "energy_Ha": -528.2859994101,
+          "change_Ha": -0.000947,
+          "cumulative_iteration_seconds": 1774.8
+        },
+        {
+          "iteration": 14,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 149.3,
+          "convergence": 3.108e-05,
+          "energy_Ha": -528.2869285303,
+          "change_Ha": -0.000929,
+          "cumulative_iteration_seconds": 1924.1
+        },
+        {
+          "iteration": 15,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 148.8,
+          "convergence": 1.344e-05,
+          "energy_Ha": -528.2874805813,
+          "change_Ha": -0.000552,
+          "cumulative_iteration_seconds": 2072.9
+        },
+        {
+          "iteration": 16,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 148.3,
+          "convergence": 1.213e-05,
+          "energy_Ha": -528.2879724275,
+          "change_Ha": -0.000492,
+          "cumulative_iteration_seconds": 2221.2000000000003
+        },
+        {
+          "iteration": 17,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 149.1,
+          "convergence": 3.63e-06,
+          "energy_Ha": -528.2881073912,
+          "change_Ha": -0.000135,
+          "cumulative_iteration_seconds": 2370.3
+        }
+      ],
+      "n": 17,
+      "iteration_time": 2370.3,
+      "final_energy": -528.2881073911723,
+      "warnings": 18,
+      "mpi": 32,
+      "threads": 1,
+      "host": "cge065",
+      "electronic_K": 931.5,
+      "wall": 2486.44
+    },
+    "atomic_data": {
+      "rows": [
+        {
+          "iteration": 1,
+          "update": "NoMix/Diag.",
+          "alpha": 0.1,
+          "seconds": 87.4,
+          "convergence": 1.00522278,
+          "energy_Ha": -564.7107229292,
+          "change_Ha": -565.0,
+          "cumulative_iteration_seconds": 87.4
+        },
+        {
+          "iteration": 2,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 126.1,
+          "convergence": 0.03755706,
+          "energy_Ha": -548.9238178971,
+          "change_Ha": 15.8,
+          "cumulative_iteration_seconds": 213.5
+        },
+        {
+          "iteration": 3,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 127.6,
+          "convergence": 0.11444258,
+          "energy_Ha": -540.4224871197,
+          "change_Ha": 8.5,
+          "cumulative_iteration_seconds": 341.1
+        },
+        {
+          "iteration": 4,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 129.0,
+          "convergence": 0.04340562,
+          "energy_Ha": -533.5811578054,
+          "change_Ha": 6.84,
+          "cumulative_iteration_seconds": 470.1
+        },
+        {
+          "iteration": 5,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 129.4,
+          "convergence": 0.00891919,
+          "energy_Ha": -531.5883805855,
+          "change_Ha": 1.99,
+          "cumulative_iteration_seconds": 599.5
+        },
+        {
+          "iteration": 6,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 131.0,
+          "convergence": 0.02959535,
+          "energy_Ha": -529.6083993647,
+          "change_Ha": 1.98,
+          "cumulative_iteration_seconds": 730.5
+        },
+        {
+          "iteration": 7,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 134.4,
+          "convergence": 0.00666422,
+          "energy_Ha": -528.9706495727,
+          "change_Ha": 0.638,
+          "cumulative_iteration_seconds": 864.9
+        },
+        {
+          "iteration": 8,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 136.6,
+          "convergence": 0.00322106,
+          "energy_Ha": -528.5968809289,
+          "change_Ha": 0.374,
+          "cumulative_iteration_seconds": 1001.5
+        },
+        {
+          "iteration": 9,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 141.3,
+          "convergence": 0.00272991,
+          "energy_Ha": -528.4053972798,
+          "change_Ha": 0.191,
+          "cumulative_iteration_seconds": 1142.8
+        },
+        {
+          "iteration": 10,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 143.9,
+          "convergence": 0.0005109,
+          "energy_Ha": -528.3571803785,
+          "change_Ha": 0.0482,
+          "cumulative_iteration_seconds": 1286.7
+        },
+        {
+          "iteration": 11,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 143.8,
+          "convergence": 0.00073063,
+          "energy_Ha": -528.3136806576,
+          "change_Ha": 0.0435,
+          "cumulative_iteration_seconds": 1430.5
+        },
+        {
+          "iteration": 12,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 143.3,
+          "convergence": 0.00014663,
+          "energy_Ha": -528.3029837326,
+          "change_Ha": 0.0107,
+          "cumulative_iteration_seconds": 1573.8
+        },
+        {
+          "iteration": 13,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 142.5,
+          "convergence": 0.00011581,
+          "energy_Ha": -528.2956044005,
+          "change_Ha": 0.00738,
+          "cumulative_iteration_seconds": 1716.3
+        },
+        {
+          "iteration": 14,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 143.6,
+          "convergence": 9.063e-05,
+          "energy_Ha": -528.2908534298,
+          "change_Ha": 0.00475,
+          "cumulative_iteration_seconds": 1859.8999999999999
+        },
+        {
+          "iteration": 15,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 143.9,
+          "convergence": 1.22e-05,
+          "energy_Ha": -528.2897574896,
+          "change_Ha": 0.0011,
+          "cumulative_iteration_seconds": 2003.8
+        },
+        {
+          "iteration": 16,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 144.0,
+          "convergence": 2.531e-05,
+          "energy_Ha": -528.2886249344,
+          "change_Ha": 0.00113,
+          "cumulative_iteration_seconds": 2147.8
+        },
+        {
+          "iteration": 17,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 143.9,
+          "convergence": 6.3e-06,
+          "energy_Ha": -528.2884132726,
+          "change_Ha": 0.000212,
+          "cumulative_iteration_seconds": 2291.7000000000003
+        }
+      ],
+      "n": 17,
+      "iteration_time": 2291.7000000000003,
+      "final_energy": -528.2884132725828,
+      "warnings": 18,
+      "mpi": 32,
+      "threads": 1,
+      "host": "cge065",
+      "electronic_K": 931.5,
+      "wall": 2411.64
+    },
+    "stages": {
+      "descriptor": 300.83615823835135,
+      "inference": 361.7374057439156,
+      "density": 5.815255852881819,
+      "cube_write": 11.230961862020195
+    },
+    "prep_components": 679.619781697169,
+    "prep": 697.0,
+    "prep_basis": "logged complete pipeline wall",
+    "scf_wall_saving": -74.80000000000018,
+    "end_to_end": 3183.44,
+    "energy_difference_meV_atom": 0.03251350471898925
+  },
+  {
+    "key": "b298",
+    "label": "Boron \u00b7 298 K",
+    "atoms": 144,
+    "cutoff": 8000,
+    "grid": "108\u00d7108\u00d7135",
+    "root": "boron_298K/logs/boron_cp2k/20260922_230542_564624_3335371",
+    "mala": "cp2k_external_density.out",
+    "atomic": "cp2k_atomic_guess.out",
+    "metadata": "../../boron_validation/20260922_224905_564590_3331209/boron_metadata.json",
+    "prep_wall": null,
+    "model": "boron_model_multi_0 \u00b7 snapshot 6",
+    "mala_data": {
+      "rows": [
+        {
+          "iteration": 1,
+          "update": "NoMix/Diag.",
+          "alpha": 0.1,
+          "seconds": 21.1,
+          "convergence": 1.64513667,
+          "energy_Ha": -450.9926553543,
+          "change_Ha": -451.0,
+          "cumulative_iteration_seconds": 21.1
+        },
+        {
+          "iteration": 2,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 33.5,
+          "convergence": 0.01054888,
+          "energy_Ha": -408.2994865454,
+          "change_Ha": 42.7,
+          "cumulative_iteration_seconds": 54.6
+        },
+        {
+          "iteration": 3,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 33.5,
+          "convergence": 0.03681753,
+          "energy_Ha": -407.9850847245,
+          "change_Ha": 0.314,
+          "cumulative_iteration_seconds": 88.1
+        },
+        {
+          "iteration": 4,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 33.5,
+          "convergence": 0.00560319,
+          "energy_Ha": -407.8070743619,
+          "change_Ha": 0.178,
+          "cumulative_iteration_seconds": 121.6
+        },
+        {
+          "iteration": 5,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 33.9,
+          "convergence": 0.00579264,
+          "energy_Ha": -407.6457553852,
+          "change_Ha": 0.161,
+          "cumulative_iteration_seconds": 155.5
+        },
+        {
+          "iteration": 6,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 34.0,
+          "convergence": 0.0012482,
+          "energy_Ha": -407.6274884114,
+          "change_Ha": 0.0183,
+          "cumulative_iteration_seconds": 189.5
+        },
+        {
+          "iteration": 7,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 34.4,
+          "convergence": 0.00197958,
+          "energy_Ha": -407.6138967221,
+          "change_Ha": 0.0136,
+          "cumulative_iteration_seconds": 223.9
+        },
+        {
+          "iteration": 8,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 34.6,
+          "convergence": 0.00026311,
+          "energy_Ha": -407.6141049624,
+          "change_Ha": -0.000208,
+          "cumulative_iteration_seconds": 258.5
+        },
+        {
+          "iteration": 9,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.3,
+          "convergence": 0.00038833,
+          "energy_Ha": -407.6126544218,
+          "change_Ha": 0.00145,
+          "cumulative_iteration_seconds": 293.8
+        },
+        {
+          "iteration": 10,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.6,
+          "convergence": 4.996e-05,
+          "energy_Ha": -407.6126701326,
+          "change_Ha": -1.57e-05,
+          "cumulative_iteration_seconds": 329.40000000000003
+        },
+        {
+          "iteration": 11,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.8,
+          "convergence": 7.223e-05,
+          "energy_Ha": -407.612661948,
+          "change_Ha": 8.18e-06,
+          "cumulative_iteration_seconds": 365.20000000000005
+        },
+        {
+          "iteration": 12,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.8,
+          "convergence": 1.075e-05,
+          "energy_Ha": -407.6126648386,
+          "change_Ha": -2.89e-06,
+          "cumulative_iteration_seconds": 401.00000000000006
+        },
+        {
+          "iteration": 13,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.8,
+          "convergence": 1.456e-05,
+          "energy_Ha": -407.612712276,
+          "change_Ha": -4.74e-05,
+          "cumulative_iteration_seconds": 436.80000000000007
+        },
+        {
+          "iteration": 14,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.7,
+          "convergence": 3.26e-06,
+          "energy_Ha": -407.6127154271,
+          "change_Ha": -3.15e-06,
+          "cumulative_iteration_seconds": 472.50000000000006
+        }
+      ],
+      "n": 14,
+      "iteration_time": 472.50000000000006,
+      "final_energy": -407.6127154270755,
+      "warnings": 1,
+      "mpi": 32,
+      "threads": 1,
+      "host": "gh003",
+      "electronic_K": 298.0,
+      "wall": 504.88
+    },
+    "atomic_data": {
+      "rows": [
+        {
+          "iteration": 1,
+          "update": "NoMix/Diag.",
+          "alpha": 0.1,
+          "seconds": 21.0,
+          "convergence": 1.46864819,
+          "energy_Ha": -428.1556800909,
+          "change_Ha": -428.0,
+          "cumulative_iteration_seconds": 21.0
+        },
+        {
+          "iteration": 2,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 32.9,
+          "convergence": 0.05874597,
+          "energy_Ha": -378.9204928476,
+          "change_Ha": 49.2,
+          "cumulative_iteration_seconds": 53.9
+        },
+        {
+          "iteration": 3,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 33.7,
+          "convergence": 0.26594381,
+          "energy_Ha": -395.5098967045,
+          "change_Ha": -16.6,
+          "cumulative_iteration_seconds": 87.6
+        },
+        {
+          "iteration": 4,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 33.6,
+          "convergence": 0.03022389,
+          "energy_Ha": -403.4837186247,
+          "change_Ha": -7.97,
+          "cumulative_iteration_seconds": 121.19999999999999
+        },
+        {
+          "iteration": 5,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 34.0,
+          "convergence": 0.04979401,
+          "energy_Ha": -406.9493420413,
+          "change_Ha": -3.47,
+          "cumulative_iteration_seconds": 155.2
+        },
+        {
+          "iteration": 6,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 33.9,
+          "convergence": 0.00191713,
+          "energy_Ha": -407.8602631516,
+          "change_Ha": -0.911,
+          "cumulative_iteration_seconds": 189.1
+        },
+        {
+          "iteration": 7,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 34.5,
+          "convergence": 0.00566965,
+          "energy_Ha": -407.8165999168,
+          "change_Ha": 0.0437,
+          "cumulative_iteration_seconds": 223.6
+        },
+        {
+          "iteration": 8,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 34.6,
+          "convergence": 0.00054845,
+          "energy_Ha": -407.7154915549,
+          "change_Ha": 0.101,
+          "cumulative_iteration_seconds": 258.2
+        },
+        {
+          "iteration": 9,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.3,
+          "convergence": 0.0010664,
+          "energy_Ha": -407.6395901959,
+          "change_Ha": 0.0759,
+          "cumulative_iteration_seconds": 293.5
+        },
+        {
+          "iteration": 10,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.5,
+          "convergence": 0.0002918,
+          "energy_Ha": -407.6244796678,
+          "change_Ha": 0.0151,
+          "cumulative_iteration_seconds": 329.0
+        },
+        {
+          "iteration": 11,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.9,
+          "convergence": 0.00027603,
+          "energy_Ha": -407.6138175469,
+          "change_Ha": 0.0107,
+          "cumulative_iteration_seconds": 364.9
+        },
+        {
+          "iteration": 12,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.5,
+          "convergence": 5.211e-05,
+          "energy_Ha": -407.6133902358,
+          "change_Ha": 0.000427,
+          "cumulative_iteration_seconds": 400.4
+        },
+        {
+          "iteration": 13,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.7,
+          "convergence": 6.692e-05,
+          "energy_Ha": -407.6113389117,
+          "change_Ha": 0.00205,
+          "cumulative_iteration_seconds": 436.09999999999997
+        },
+        {
+          "iteration": 14,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.6,
+          "convergence": 1.853e-05,
+          "energy_Ha": -407.611309682,
+          "change_Ha": 2.92e-05,
+          "cumulative_iteration_seconds": 471.7
+        },
+        {
+          "iteration": 15,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.8,
+          "convergence": 2.57e-05,
+          "energy_Ha": -407.6116356218,
+          "change_Ha": -0.000326,
+          "cumulative_iteration_seconds": 507.5
+        },
+        {
+          "iteration": 16,
+          "update": "Broy./Diag.",
+          "alpha": 0.1,
+          "seconds": 35.5,
+          "convergence": 5.85e-06,
+          "energy_Ha": -407.6120931869,
+          "change_Ha": -0.000458,
+          "cumulative_iteration_seconds": 543.0
+        }
+      ],
+      "n": 16,
+      "iteration_time": 543.0,
+      "final_energy": -407.6120931868656,
+      "warnings": 1,
+      "mpi": 32,
+      "threads": 1,
+      "host": "gh003",
+      "electronic_K": 298.0,
+      "wall": 581.04
+    },
+    "stages": {
+      "descriptor": 459.44577077403665,
+      "inference": 18.026062857359648,
+      "density": 4.072958279401064,
+      "cube_write": 2.6895871832966805
+    },
+    "prep_components": 484.23437909409404,
+    "prep": 484.23437909409404,
+    "prep_basis": "sum of recorded components; lower-bound estimate",
+    "scf_wall_saving": 76.15999999999997,
+    "end_to_end": 989.114379094094,
+    "energy_difference_meV_atom": -0.11758346312196803
+  }
+]

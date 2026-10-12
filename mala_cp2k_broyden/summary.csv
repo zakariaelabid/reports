@@ -1,0 +1,4 @@
+case,cutoff_Ry,atoms,mala_iterations,atomic_iterations,mala_iteration_s,atomic_iteration_s,mala_CP2K_wall_s,atomic_CP2K_wall_s,preparation_s,preparation_basis,mala_total_s,delta_energy_meV_atom
+Al · 298 K,11000,256,15,17,2158.7,3157.8,2284.42,3279.8,558.6453743446618,sum of recorded components; lower-bound estimate,2843.065374344662,0.0786022752687275
+Liquid Al · 933 K,11000,256,17,17,2370.3,2291.7000000000003,2486.44,2411.64,697.0,logged complete pipeline wall,3183.44,0.03251350471898925
+Boron · 298 K,8000,144,14,16,472.50000000000006,543.0,504.88,581.04,484.23437909409404,sum of recorded components; lower-bound estimate,989.114379094094,-0.11758346312196803

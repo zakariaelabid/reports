@@ -1,0 +1,22 @@
+{
+  "logs/mala_cp2k_validation/20260921_225223_562895_2960795/cp2k_mala.out": "c31af64515ff12fe18f0c8e7837befbf4e095583a678b730fa49b44b3aa99b5d",
+  "logs/mala_cp2k_validation/20260921_225223_562895_2960795/External-density_launcher.log": "497d2f8276346c8a6b75a06a38f831c4e22e216118c38166a3dd0a46cb0a6830",
+  "logs/mala_cp2k_validation/20260921_225223_562895_2960795/cp2k_atomic.out": "c57c994fc2998d4ec082f0b21c4b11e90743a9b6e85ed56e4acc68f3d385f791",
+  "logs/mala_cp2k_validation/20260921_225223_562895_2960795/Atomic-guess_launcher.log": "f6f0927b2fb2a662fdd5defd9bf89ca6aac01e6df894f8d1ecdba23df71ffd1a",
+  "logs/mala_cp2k_validation/20260921_225223_562895_2960795/mala_artifacts.json": "654c6a8935e53c5d690197923206ad94ecb91620d553f73eda8f8c889fbfbf84",
+  "933K_hybrid_0/logs/snapshot8_full/20260930_104300_575271_4126053/cp2k_external_density.out": "4ccd2a7c01355ae8379b4af1b48c0b9900d1db2d8ae57f47aab45b457c9e3754",
+  "933K_hybrid_0/logs/snapshot8_full/20260930_104300_575271_4126053/External-density_launcher.log": "a175a0f0f6a040ccc4726bd58c709daf2540a7bf5aa7cd57de1bf1f02fb76145",
+  "933K_hybrid_0/logs/snapshot8_full/20260930_104300_575271_4126053/cp2k_atomic_guess.out": "f1ef6175ee0c282f171b7b7808e993ac870d860ccf286f6cb2b869a12f777e97",
+  "933K_hybrid_0/logs/snapshot8_full/20260930_104300_575271_4126053/Atomic-guess_launcher.log": "37da33b3d62ee271cd3d8ebbdce878d514281ba33294066b4cebc205183c8cec",
+  "933K_hybrid_0/logs/snapshot8_full/20260930_104300_575271_4126053/mala_metadata.json": "3e53b6c374219312fa6308897497bed46a94b089f42ff90e3dcfe2bd4de0234f",
+  "boron_298K/logs/boron_cp2k/20260922_230542_564624_3335371/cp2k_external_density.out": "aac8fce5e8fbb5144e992dfe59d171090253b6aae3b66a38da3664c0a6cd661a",
+  "boron_298K/logs/boron_cp2k/20260922_230542_564624_3335371/External-density_launcher.log": "e7b35c27c1b7188b2c2049ff2d57ae04442346f70cc51a41a42e4b9d46c16037",
+  "boron_298K/logs/boron_cp2k/20260922_230542_564624_3335371/cp2k_atomic_guess.out": "0eb78968833bd03fdf17af010d005adb7b5932f3f215254e7784e4e7123f6629",
+  "boron_298K/logs/boron_cp2k/20260922_230542_564624_3335371/Atomic-guess_launcher.log": "3496f3a5d2283ee948831b952778ae5c5cc92880e65cd473770e58361ae1754f",
+  "boron_298K/logs/boron_validation/20260922_224905_564590_3331209/boron_metadata.json": "5bc3a6e2bc1b67cbf1fed2e06682cbc95354294160e498e7d55cd8e38dfb94f7",
+  "logs/mala_cp2k_validation/20260921_225223_562895_2960795/pipeline.log": "97bddc1f1e4a684397f4ececa40e9f7584a67f5e926365c3c8267d824185b241",
+  "logs/mala_cp2k_validation/20260921_225223_562895_2960795/cp2k_mala.inp": "6ce60f1f222f77f116f666223cfb0420de5be066913ef9ae3857e8affca5b707",
+  "logs/mala_cp2k_validation/20260921_225223_562895_2960795/cp2k_atomic.inp": "31a8276e63ba6d5d908d1ffebc84b1baf2d7b249c60804970cdc9afa80cfcb40",
+  "933K_hybrid_0/SNAPSHOT8_RESULTS.md": "6c07d4e14e5bb5216738e0913f618f7c1cf695776569256da89b1e69ad859581",
+  "boron_298K/validation_report.txt": "7cad0d9efaee04b44f442ebf61bf8d706e5ff45cc7ef6fa099bf37f46b2824af"
+}

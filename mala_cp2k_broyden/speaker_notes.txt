@@ -1,0 +1,29 @@
+Slide 1
+The comparison is an initializer benchmark: a learned density versus an atomic density guess, both followed by CP2K. Recorded Al counts are 15 versus 17, not the recalled 14 versus 16. Boron is a separate 8000 Ry regime. No statistical uncertainty can be estimated from one pair per case.
+
+Slide 2
+Broyden history reference: https://manual.cp2k.org/cp2k-2026_2-branch/CP2K_INPUT/FORCE_EVAL/DFT/SCF/MIXING.html . NBUFFER stores previous steps. Al298 archived inputs have subsequently been edited to DIRECT_P_MIXING and cutoff 800; do not interpret them as the original run inputs. Historical output proves Broyden, and pipeline.log records 11000 Ry. The 11000 Ry Al calculations are historical high-grid-cost settings, not a recommendation for production cutoff.
+
+Slide 3
+Energy curves cannot compare physical stability across different cells or materials. The first NoMix/Diag row is not the raw input density energy. MALA boron has a much larger first-step energy displacement yet saves two iterations, so energy closeness is not a sufficient convergence predictor.
+
+Slide 4
+Summed iteration seconds MALA/atomic: Al298 2158.7/3157.8; liquid Al 2370.3/2291.7; B 472.5/543.0. Complete invocation times are larger. These traces are not end-to-end speed measurements.
+
+Slide 5
+Differences in geometry, model, material and smearing accompany the change in regime. The data support a case-specific benefit, not a claim that temperature alone causes the difference. No ablation of mixing parameters was performed in this report.
+
+Slide 6
+Break-even requires preparation time < saved complete CP2K wall time. Savings: Al298 995.38 s, liquid Al -74.80 s, boron 76.16 s. Component sum Al298 includes descriptor, inference, density and cube serialization: 558.645374 s. Boron 484.234379 s. Component sums omit unrecorded overhead; Al298 overall saving is an estimate and boron slowdown is a lower bound. Liquid Al uses logged complete pipeline wall including overhead. Preparation and CP2K can run on different workers, so the total is sequential compute wall, not a uniform-hardware benchmark or allocation cost.
+
+Slide 7
+Final external-minus-atomic energy differences in meV/atom: Al298 ~0.07860, liquid Al ~0.03251, B ~−0.11758. Small differences are consistent with finite SCF accuracy but tighter convergence is required to establish that explanation. The Al298 cube integrated to 768.2867545890 electrons versus target 768; final SCF is ~768 electrons. This is an additional initializer difference, not evidence of a physical charge effect. The large Al298 step-time difference is observed, but its cause cannot be established from one pair; do not claim the learned density inherently makes each iteration faster.
+
+Slide 8
+The positive Al298 end-to-end result is approximate because only component preparation timings exist and per-step timings vary strongly between routes. Boron is necessarily slower for a fresh prediction under these recorded timings. Reusing already computed densities changes the accounting and must be labeled separately.
+
+Slide 9
+The own-route reference removes finite differences between endpoints to show how each energy settles. This quantity must not be described as an ML prediction error or an independent accuracy assessment.
+
+Slide 10
+Al298: logs/mala_cp2k_validation/20260921_225223_562895_2960795; Liquid Al: 933K_hybrid_0/logs/snapshot8_full/20260930_104300_575271_4126053; Boron: boron_298K/logs/boron_cp2k/20260922_230542_564624_3335371. The fresh external snapshot7 continuation also has 17 steps but is not mixed with its earlier atomic reference; the matched fresh snapshot8 pair is used consistently.
